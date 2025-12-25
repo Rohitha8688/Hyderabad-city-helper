@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hyderabad City Helper</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Hyderabad City Helper</h1>
+    <p>Find hostels, institutes, restaurants and more</p>
+
+    <div class="form">
+      <select id="area">
+        <option value="">Select Area</option>
+        <option value="Amirpet">Amirpet</option>
+        <option value="Madhapur">Madhapur</option>
+        <option value="JNTU">JNTU</option>
+        <option value="KPHB">KPHB</option>
+      </select>
+
+      <select id="category">
+        <option value="">Select Category</option>
+        <option value="Hostel">Hostel</option>
+        <option value="Institute">Institute</option>
+        <option value="Restaurant">Restaurant</option>
+        <option value="Stationery">Stationery</option>
+        <option value="Mall">Mall</option>
+      </select>
+
+      <input type="number" id="budget" placeholder="Enter Budget">
+
+      <button id="searchBtn">Search</button>
+    </div>
+
+    <div id="results"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
